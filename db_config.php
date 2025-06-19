@@ -1,5 +1,5 @@
 <?php
-require '/var/www/html/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use Aws\SecretsManager\SecretsManagerClient;
 use Aws\Exception\AwsException;
