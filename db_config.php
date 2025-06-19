@@ -4,7 +4,7 @@ require __DIR__ . '/vendor/autoload.php';
 use Aws\SecretsManager\SecretsManagerClient;
 use Aws\Exception\AwsException;
 
-$secretName = 'project/db/credentials';
+$secretName = 'project/db/credentials-v2';
 $region = 'ap-southeast-1';
 
 $client = new SecretsManagerClient([
